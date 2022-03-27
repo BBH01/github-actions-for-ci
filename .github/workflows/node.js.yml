@@ -10,7 +10,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    stepsS:
+    steps:
       - uses: actions/checkout@v2
       - name: npm install and build webpack
         run: |
